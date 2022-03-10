@@ -1,0 +1,38 @@
+<h1>Les Regions</h1>
+<nav aria-label="breadcrumb ">
+  <ol class="breadcrumb ">
+    <button class="breadcrumb-item " aria-current="page">Regions </button>
+
+    <button class="breadcrumb-item active">
+      <a class="" href="/communes">Communes </a>
+    </button>
+
+    <button class="breadcrumb-item">
+      <a href="/departements">Departements </a>
+    </button>
+
+  </ol>
+</nav>
+
+<table class="table table-striped table-hover">
+  <thead >
+
+    <tr>
+      <th>Nom</th>
+      <th>Code</th>
+      <th>Code de Departement</th>
+
+    </tr>
+  </thead>
+  <tbody>
+
+
+      <tr routerLink="/regions/{{regions.fields}">
+        <th>{{region ?.nom}}</th>
+        <th>{{region ?.code}}</th>
+        <th>{{region ?.codeDepartment}}</th>
+      </tr>
+
+  </tbody>
+</table>
+

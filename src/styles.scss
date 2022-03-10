@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+background-color: lightgray;
+
+}
+h1{
+  text-align: center ;
+}
+li
+{
+  list-style: none;
+  display: inline;
+
+
+}
+a{
+  text-decoration: none;
+
+}
+button:active{
+  background-color: black;
+  color: white;
+}
